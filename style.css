@@ -1,0 +1,257 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.container {
+  height: 500px;
+  width: 1500px;
+  background-color: #1a1a2e;
+  position: relative;
+}
+
+.coffee {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  background: white;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px 20px 200px 200px;
+  z-index: 10;
+}
+
+.coffee:after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 100px;
+  border-radius: 50%;
+  background: white;
+  bottom: -6px;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.coffee:before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: gray;
+  border-radius: 50%;
+  top: -24px;
+  left: 30px;
+  filter: blur(4px);
+  box-shadow: 0px -20px 4px -1px gray, 22px -4px 4px -2px gray, -20px -24px 4px gray, 34px 0 4px -4px gray, 20px -34px 4px -2px gray;
+}
+
+.stand {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border: 4px solid white;
+  border-radius: 50% 10px 20px 50%;
+  right: -10px;
+  top: 2px
+}
+
+.circle {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgba(0,207,255,1) 0%, rgba(237,255,0,1) 27%, rgba(255,0,245,1) 55%, rgba(26,26,46,1) 80%);
+  transform: rotatez(-40deg);
+  z-index: 100;
+}
+
+.c {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+/*   left: 35%;
+  top: 10%; */
+/*   transform: translate(-50%, -50%); */
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background: #1a1a2e;
+  transform: rotatez(40deg);
+}
+
+
+
+.circle-1 {
+  height: 450px;
+  width: 450px;
+/*   background: #ffd5cd; */
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: "roboto";
+  font-size: 64px;
+  background: -webkit-linear-gradient(90deg, rgba(0,207,255,1) 0%, rgba(241,255,0,1) 50%, rgba(255,0,245,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1:nth-of-type(1) {
+  position: relative;
+  left: 150px;
+  top: 108px;
+}
+
+h1:nth-of-type(2) {
+  position: relative;
+  top: 60px;
+}
+
+.line {
+  height: 10px;
+  width: 800px;
+  background: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lc {
+  position: relative;
+  left: 1020px;
+  top: 140px;
+}
+
+.laptop {
+  width: 270px;
+  height: 180px;
+  border: 10px solid #f6bed6;  
+  border-top: 20px solid #f6bed6;
+  border-radius: 20px 20px 0 0;
+  box-sizing: border-box;
+  background: white;
+  position: absolute;
+}
+
+.laptop:after {
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: black;
+  left: 50%;
+  transform: translatex(-50%);
+  top: -18px;
+}
+
+.stand-l {
+  width: 350px;
+  height: 24px;
+  background: #f6bed6;
+  position: absolute;
+  left: -40px;
+  top: 174px;
+  border-radius: 0 0 40px 40px;
+}
+
+.stand-l:after {
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 12px;
+  background: gray;
+  border-radius: 8px;
+  left: 0px;
+}
+
+.code1 {
+  position: absolute;
+  height: 10px;
+  width: 44px;
+  background: #1a1a2e;
+  left: 20px;
+  top: 10px;
+}
+
+.code2 {
+  position: absolute;
+  height: 10px;
+  width: 80px;
+  background: #ff5722;
+  left: 70px;
+  top: 10px;
+}
+
+.code3 {
+  position: absolute;
+  height: 10px;
+  width: 44px;
+  background: #2ec1ac;
+  left: 158px;
+  top: 10px;
+}
+
+.code4 {
+  position: absolute;
+  height: 10px;
+  width: 54px;
+  background: #7d0633;
+  left: 20px;
+  top: 42px;
+}
+
+.code5 {
+  position: absolute;
+  height: 10px;
+  width: 90px;
+  background: #ff5722;
+  left: 80px;
+  top: 42px;
+}
+
+.code6 {
+  position: absolute;
+  height: 10px;
+  width: 44px;
+  background: #ff4b5c;
+  left: 176px;
+  top: 42px;
+}
+
+.code7 {
+  position: absolute;
+  height: 10px;
+  width: 90px;
+  background: #4e89ae;
+  left: 20px;
+  top: 74px;
+}
+
+.code8 {
+  position: absolute;
+  height: 10px;
+  width: 60px;
+  background: #1a1a2e;
+  left: 116px;
+  top: 74px;
+}
+
+.code9 {
+  position: absolute;
+  height: 10px;
+  width: 40px;
+  background: #4e89ae;
+  left: 182px;
+  top: 74px;
+}
+
